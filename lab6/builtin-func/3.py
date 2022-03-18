@@ -1,0 +1,5 @@
+s = input()
+rev = list(reversed(s))
+rs = "".join(rev)
+if rs == s: print("String is palindrome")
+else: print("String is not palindrome")
